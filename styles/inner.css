@@ -1,0 +1,257 @@
+/* 
+
+Fashionistyle - CSS File
+
+USE THIS STYLE SHEET FOR INNER PAGE
+
+*/
+
+/* Page Navi */
+.pagenavi {clear:both; padding:0px 0 0 0; text-align:center}
+.pagenavi a, .pagenavi a:visited{
+	color:#878787;
+	padding:4px 8px;
+	margin-right:8px;
+	border:1px solid #e9e9e9;
+}
+
+.pagenavi a:hover{
+	background-color:#f3f3f3;
+	color:#878787;
+	padding:4px 8px;
+	margin-right:8px;
+	text-decoration:none;
+	border:1px solid #e9e9e9;
+}
+
+.pagenavi .current{
+	background-color:#f3f3f3;
+	color:#878787;
+	padding:4px 8px;
+	margin-right:8px;
+	text-decoration:none;
+	cursor:pointer;
+	border:1px solid #e9e9e9;
+}
+
+.pagenavi .pages{
+	color:#878787;
+	padding:4px 8px;
+	margin-right:8px;
+	border:1px solid #e9e9e9;
+}
+
+/* ABOUT */
+h3.title-about{ padding:10px 0px 10px 0px; margin-bottom:7px;}
+.bullet-check.about li{ border-bottom:1px solid #e9e9e9; padding-top:3px; padding-bottom:3px; background-position:0px 10px;}
+
+
+/* SERVICE */
+ul.service-list{ margin:0px; padding:0px; list-style-type:none;}
+ul.service-list li{ border-bottom:1px solid #e9e9e9; padding-bottom:15px; margin-bottom:15px;}
+ul.service-list li h4{ margin-bottom:0px;}
+.five-column.service li h3{ margin-bottom:0px;}
+
+/* RESERVATION */
+.recervation.center{ width:268px;}
+.recervation h2{ margin-bottom:10px;}
+.recervation p{ margin-bottom:10px;}
+#booking label{ display:block; margin-bottom:5px;}
+ul.check{ margin:0px 0px 20px 0px; padding:0px;  list-style-type:none;}
+ul.check li{display:inline-block; margin-right:15px;}
+.cekdate select{ width:65px;}
+#booking input{background:#f2f3f2; color:#878787;}
+#booking .button{
+	border:0px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	padding:0px 25px;
+	margin-left:30px;
+	height:30px;
+	background:url(../images/bg-button.gif) repeat-x!important;
+}
+.cekmonth select{ width:150px;}
+
+/* ROOM DETAIL */
+.one_half.left{ margin-left:20px; width:42%;}
+#slideshow_detail {list-style:none; color:#fff}
+#slideshow_detail span {display:none}
+#wrapper {width:651px; margin:0; display:none; }
+#wrapper * {margin:0; padding:0}
+#fullsize {position:relative; width:651px; height:386px; padding:0px 0px 0px 0px; z-index:0;}
+#information {position:absolute; bottom:0; width:651px; height:0; background:url(../images/slider-detail/opacity.png) repeat;  color:#fff; overflow:hidden; z-index:200; display:none; }
+#information h3 {padding:4px 8px 3px; font-size:14px; display:none;}
+#information p {padding:0 8px 8px;}
+#image {width:651px}
+#image img {position:absolute; z-index:25; width:auto}
+.imgnav {position:absolute; width:25%; height:306px; cursor:pointer; z-index:50}
+.linkhover {background:url(../images/slider-detail/link.html) center center no-repeat}
+
+#thumbnails {padding:18px 20px 0px 20px; background-image:url(../images/slider-detail/opacity2.png); background-repeat:repeat;  width:610px; position:absolute; top:380px; }
+#slideleft {float:left; width:10px; height:13px; background:url(../images/slider-detail/scroll-left.png) center center no-repeat; margin-top:10px; cursor:pointer;}
+#slideright {float:left; width:10px; height:13px; background:url(../images/slider-detail/scroll-right.png) center center no-repeat; margin-top:10px; cursor:pointer;}
+#slidearea {float:left; position:relative; width:570px; margin:0px 10px 0px 10px;  height:53px; overflow:hidden;}
+#slider {position:absolute; left:0; height:53px}
+#slider img {cursor:pointer; border:0px; padding:0px 0px; margin:0px 8px 0px 8px!important; width:47px; height:35px;}
+
+/* PORTFOLIO */
+.ts-display-pf-img{position:relative;}
+.ts-display-clear{clear:both; height:1px !important; line-height:1px !important; float:none!important}
+.ts-display-pf-text{ line-height:20px;}
+.ts-display-pf-text .more{}
+.ts-display-pf-text .more:hover{ text-decoration:none}
+.ts-display-pf-text  .posttitle{margin-bottom:5px;}
+
+
+/*======= Portfolio 3 Column =======*/
+.ts-display-pf-col-3{list-style-type:none; padding:0px; margin:0px 0px 0px 0px; float:left;}
+.ts-display-pf-col-3 li{list-style-type:none; padding:0; margin:0 29px 29px 0; width:281px;  float:left}
+.ts-display-pf-col-3 li.nomargin{margin-right:0;}
+
+.ts-display-pf-col-3 .ts-display-pf-img{
+	width:281px;
+	height:166px;
+}
+
+.ts-display-pf-col-3 .ts-display-pf-img a.image{
+	width:281px;
+	height:166px;
+	display:block;
+	position:relative;
+}
+
+.ts-display-pf-col-3 .ts-display-pf-img a .rollover{
+	background:url(../images/hover-opacity.png);
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-position:center;
+	width:281px;
+	height:166px;
+	display:block;
+    position:absolute;
+	z-index:10;
+	display:none;
+	cursor:pointer;
+}
+
+.ts-display-pf-col-3 .ts-display-pf-text{
+	margin-top:15px;
+}
+
+
+
+/* BLOG */
+.posttitle{margin:0 0 0px 0; line-height:25px;}
+.posttitle a, .posttitle a:visited{ color:#2b292d;}
+.posttitle a:hover{text-decoration:none}
+.post{margin-bottom:40px;  position:relative; margin-top:-5px}
+.postdate{ position:absolute; right:0px; top:0px; background:#2b292d; padding:5px 13px; color:#fff; font-family:"Century Gothic", Arial, Verdana; font-size:14px;}
+.post.single{margin-bottom:0px; padding-bottom:0px; border:0;}
+.post-entry{}
+.entry-content{padding:10px 0 0 0;}
+.post .entry-content a.more{ margin-top:-10px; display:block; width:60px; background-position:right 9px;}
+.entry-utility a, .entry-utility a:visited{ color:#2b292d;}
+.entry-utility a:hover{}
+.more{display:inline-block;}
+
+#comment .pagenavi{
+	padding:0 0 40px 0;
+}
+.commentlist{
+	list-style-type:none;
+	padding:20px 0;
+	margin:0;
+}
+.commentlist ol{
+	list-style-type:none;
+	padding:30px 0 0 90px;
+	margin:0;
+}
+
+.commentlist li{
+	position:relative;
+	padding:0 0 30px 0;
+	
+}
+.commentlist li li{
+	position:relative;
+	padding:0;
+}
+
+.avatar{
+	position:absolute;
+	top:0;
+	left:0;
+	border:solid 1px #e9e9e9;
+}
+.tuser{font-size:14px;}
+span.com-date{ font-size:10px; font-style:italic;}
+.comment-body{margin:0 0 0 90px; padding:0;}
+.comment-body p{margin-bottom:10px;}
+#commentform label{display:block; float:left; margin-bottom:10px}
+.comment-body {border-bottom:1px solid #e9e9e9; padding-bottom:10px;}
+#commentform .text-input{
+	margin-bottom:8px;
+	padding:8px 5px;
+	vertical-align:middle;
+	width:178px;
+	margin-right:10px;
+}
+#commentform #url.text-input{margin-right:0 !important;}
+#commentform .textarea{
+	margin-bottom:10px;
+	padding:8px 5px;
+	vertical-align:top;
+	width:580px;
+}
+#commentform .button{
+	margin-top:15px;
+ }
+#commentform .button:hover{text-decoration:none;}
+
+
+/* CONTACT */
+.maincontact{background:url(../images/bg-main.html) repeat-y; float:left;}
+.contact-left{ width:530px; float:left; margin-right:35px;}
+.contact-right{ width:299px; float:left; padding-left:35px; border-left:1px solid #e9e9e9;}
+.contact-right h2{ margin-bottom:8px;}
+.contact-right a{ color:#2b292d}
+
+form{margin:0; padding:0;}
+fieldset{border:0px;}
+#contactform{margin:0 auto; position:relative; }
+#contactform h2{ margin-bottom:0px;}
+#contactform label{display:block; width:80px; float:left; }
+.error, .red{color: #FF0000;}
+#contactform input{
+	margin-bottom:8px;
+	padding:8px 5px;
+	width:55%;
+	display:block;
+	vertical-align:middle;
+}
+#contactform textarea{
+	margin-bottom:10px;
+	padding:8px 5px;
+	vertical-align:top;
+	width:80%;
+}
+
+#message{ margin-left:0px;}
+#message p{margin:6px 0px; }
+#contactform .button{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 80px;
+	text-align:center;
+	color:#878787 !important;
+	cursor:pointer;
+	font-size:11px;
+	display:inline-block;
+	width:99px;
+	height:30px;
+	text-transform:none;
+	line-height:normal;
+	border:1px solid #e9e9e9;
+	background:url(../images/bg-butt-contact.gif) repeat-x;
+ }
